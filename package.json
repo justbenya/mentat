@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "build:github": "NEXT_PUBLIC_BASE_PATH=/mentat next build",
+    "build:github": "cross-env NEXT_PUBLIC_BASE_PATH=/mentat next build && next export",
     "deploy": "npm run build:github && gh-pages -d dist"
   },
   "dependencies": {
@@ -28,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "eslint-config-prettier": "^10.1.5",
