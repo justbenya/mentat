@@ -2,14 +2,12 @@
   "name": "mentat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://justbenya.github.io/mentat",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "build:github": "cross-env NEXT_PUBLIC_BASE_PATH=/mentat next build && next export",
     "deploy": "npm run build:github && gh-pages -d dist"
   },
   "dependencies": {
@@ -28,7 +26,6 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "eslint-config-prettier": "^10.1.5",
@@ -37,7 +34,6 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5"
