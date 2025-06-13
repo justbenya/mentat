@@ -1,0 +1,127 @@
+[
+  {
+    "id": "captured_mentat",
+    "titleKey": "cards.captured_mentat.title",
+    "faction": [
+      "emperor"
+    ],
+    "cost": 5,
+    "access": [
+      "green",
+      "yellow"
+    ],
+    "blades": 0,
+    "amount": 1,
+    "image": "/cards/captured_mentat.jpg"
+  },
+  {
+    "id": "unswerving_loyalty",
+    "titleKey": "cards.unswerving_loyalty.title",
+    "faction": [
+      "fremen"
+    ],
+    "cost": 1,
+    "access": [],
+    "blades": 0,
+    "amount": 2,
+    "image": "/cards/unswerving_loyalty.jpg"
+  },
+  {
+    "id": "reliable_informant",
+    "titleKey": "cards.reliable_informant.title",
+    "faction": [
+      "guild"
+    ],
+    "cost": 2,
+    "access": [
+      "guild"
+    ],
+    "blades": 0,
+    "amount": 1,
+    "image": "/cards/reliable_informant.jpg"
+  },
+  {
+    "id": "bene_gesserit_operative",
+    "titleKey": "cards.bene_gesserit_operative.title",
+    "faction": [
+      "bene"
+    ],
+    "cost": 3,
+    "access": [
+      "bene"
+    ],
+    "blades": 0,
+    "amount": 1,
+    "image": "/cards/bene_gesserit_operative.jpg"
+  },
+  {
+    "id": "rebel_supplier",
+    "titleKey": "cards.rebel_supplier.title",
+    "faction": [
+      "fremen"
+    ],
+    "cost": 3,
+    "access": [
+      "blue"
+    ],
+    "blades": 1,
+    "amount": 1,
+    "image": "/cards/rebel_supplier.jpg"
+  },
+  {
+    "id": "paracompass",
+    "titleKey": "cards.paracompass.title",
+    "faction": null,
+    "cost": 4,
+    "access": [
+      "blue"
+    ],
+    "blades": 0,
+    "amount": 1,
+    "image": "/cards/paracompass.jpg"
+  },
+  {
+    "id": "spacing_guild_favor",
+    "titleKey": "cards.spacing_guild_favor.title",
+    "faction": [
+      "guild"
+    ],
+    "cost": 5,
+    "access": [
+      "guild",
+      "yellow"
+    ],
+    "blades": 0,
+    "amount": 1,
+    "image": "/cards/spacing_guild_favor.jpg"
+  },
+  {
+    "id": "corinth_city",
+    "titleKey": "cards.corinth_city.title",
+    "faction": [
+      "emperor"
+    ],
+    "cost": 6,
+    "access": [
+      "emperor",
+      "green"
+    ],
+    "blades": 0,
+    "amount": 1,
+    "image": "/cards/corinth_city.jpg"
+  },
+  {
+    "id": "hidden_missive",
+    "titleKey": "cards.hidden_missive.title",
+    "faction": [
+      "bene"
+    ],
+    "cost": 2,
+    "access": [
+      "green"
+    ],
+    "blades": 1,
+    "amount": 1,
+    "image": "/cards/hidden_missive.jpg"
+  }
+]
