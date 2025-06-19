@@ -1,0 +1,19 @@
+{
+  "welcome": "Добро пожаловать!",
+
+  "cards": {
+    "captured_mentat": {
+      "title": "Захваченный ментат"
+    }
+  },
+
+  "faction": {
+    "emperor": "Император",
+    "guild": "Гильдия"
+  },
+
+  "access": {
+    "green": "Зелёный",
+    "yellow": "Жёлтый"
+  }
+}

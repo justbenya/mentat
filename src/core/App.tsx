@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
+import CardImage from '@/core/components/CardImage';
+import LanguageSwitcher from '@/core/components/LanguageSwitcher';
 import { countAccess, countRevealBlades, countRevealPersuasion, countUsedCopies, groupCards } from '@/core/utils';
 
 import cards from './data/cards.json';
@@ -55,6 +58,7 @@ function CardSearch() {
   const [query, setQuery] = useState('');
   const [addedCards, setAddedCards] = useState({});
   const [isFocused, setIsFocused] = useState(false);
+  const { t } = useTranslation();
 
   const usedCounts = countUsedCopies(addedCards);
 
@@ -110,6 +114,10 @@ function CardSearch() {
 
   return (
     <div className="w-full mx-auto space-y-4">
+      <LanguageSwitcher />
+
+      {t('welcome')}
+
       {/* Поиск */}
       <input
         type="text"
@@ -131,14 +139,14 @@ function CardSearch() {
             >
               {/* Изображение */}
               <div className="relative group shrink-0">
-                <img
-                  src={card.image}
+                <CardImage
+                  cardId={card.id}
                   alt={card.name}
                   className="w-12 h-16 object-cover rounded shadow-sm"
                 />
                 <div className="absolute top-0 left-14 z-10 w-48 h-auto hidden group-hover:block">
-                  <img
-                    src={card.image}
+                  <CardImage
+                    cardId={card.id}
                     alt={card.name}
                     className="w-48 h-auto rounded shadow-lg border border-gray-300"
                   />
@@ -147,7 +155,7 @@ function CardSearch() {
 
               {/* Информация + кнопки */}
               <div className="flex-1 space-y-2">
-                <div className="font-bold">{card.name}</div>
+                <div className="font-bold">{t(card.name)}</div>
                 <div className="text-sm text-gray-600">Стоимость: {card.cost}</div>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {players.map((player) => (
@@ -179,7 +187,7 @@ function CardSearch() {
               <ul className="space-y-1 text-sm">
                 {Object.entries(countAccess(addedCards[player.id])).map(([key, value]) => (
                   <li key={key}>
-                    <strong>{key}</strong>: {value}
+                    <strong>{t(`access.${key}`)}</strong>: {value}
                   </li>
                 ))}
               </ul>
@@ -194,14 +202,14 @@ function CardSearch() {
                   className="flex flex-col sm:flex-row sm:items-center gap-3 p-4 hover:bg-gray-50"
                 >
                   <div className="relative group shrink-0 flex items-center">
-                    <img
-                      src={card.image}
+                    <CardImage
+                      cardId={card.id}
                       alt={card.name}
                       className="w-12 h-16 object-cover rounded shadow-sm"
                     />
                     <div className="absolute top-0 left-14 z-10 w-48 h-auto hidden group-hover:block">
-                      <img
-                        src={card.image}
+                      <CardImage
+                        cardId={card.id}
                         alt={card.name}
                         className="w-48 h-auto rounded shadow-lg border border-gray-300"
                       />

@@ -1,0 +1,19 @@
+{
+  "welcome": "Welcome!",
+
+  "cards": {
+    "captured_mentat": {
+      "title": "Captured mentat"
+    }
+  },
+
+  "faction": {
+    "emperor": "Emperor",
+    "guild": "Guild"
+  },
+
+  "access": {
+    "green": "Green",
+    "yellow": "Yellow"
+  }
+}

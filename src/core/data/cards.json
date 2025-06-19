@@ -13,8 +13,7 @@
     "amount": 1,
     "reveal" : {
       "persuasion": 1
-    },
-    "image": "/cards/captured_mentat.jpg"
+    }
   },
   {
     "id": "unswerving_loyalty",
@@ -27,8 +26,7 @@
     "amount": 2,
     "reveal" : {
       "persuasion": 1
-    },
-    "image": "/cards/unswerving_loyalty.jpg"
+    }
   },
   {
     "id": "reliable_informant",
@@ -44,8 +42,7 @@
     "reveal" : {
       "persuasion": 1,
       "solari": 1
-    },
-    "image": "/cards/reliable_informant.jpg"
+    }
   },
   {
     "id": "bene_gesserit_operative",
@@ -60,8 +57,7 @@
     "amount": 1,
     "reveal" : {
       "persuasion": 1
-    },
-    "image": "/cards/bene_gesserit_operative.jpg"
+    }
   },
   {
     "id": "rebel_supplier",
@@ -77,8 +73,7 @@
     "reveal" : {
       "spice": 1,
       "blades": 1
-    },
-    "image": "/cards/rebel_supplier.jpg"
+    }
   },
   {
     "id": "paracompass",
@@ -88,8 +83,7 @@
     "access": [
       "blue"
     ],
-    "amount": 1,
-    "image": "/cards/paracompass.jpg"
+    "amount": 1
   },
   {
     "id": "spacing_guilds_favor",
@@ -105,8 +99,7 @@
     "amount": 1,
     "reveal" : {
       "persuasion": 2
-    },
-    "image": "/cards/spacing_guilds_favor.jpg"
+    }
   },
   {
     "id": "corrinth_city",
@@ -122,8 +115,7 @@
     "amount": 1,
     "reveal" : {
       "solari": 5
-    },
-    "image": "/cards/corrinth_city.jpg"
+    }
   },
   {
     "id": "hidden_missive",
@@ -139,8 +131,7 @@
     "reveal" : {
       "persuasion": 1,
       "blades": 1
-    },
-    "image": "/cards/hidden_missive.jpg"
+    }
   },
   {
     "id": "prepare_the_way",
@@ -156,7 +147,6 @@
     "amount": 8,
     "reveal" : {
       "persuasion": 2
-    },
-    "image": "/cards/prepare_the_way.jpg"
+    }
   }
 ]
