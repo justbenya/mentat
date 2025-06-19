@@ -1,7 +1,7 @@
 [
   {
     "id": "captured_mentat",
-    "titleKey": "cards.captured_mentat.title",
+    "name": "cards.captured_mentat.title",
     "faction": [
       "emperor"
     ],
@@ -10,25 +10,29 @@
       "green",
       "yellow"
     ],
-    "blades": 0,
     "amount": 1,
+    "reveal" : {
+      "persuasion": 1
+    },
     "image": "/cards/captured_mentat.jpg"
   },
   {
     "id": "unswerving_loyalty",
-    "titleKey": "cards.unswerving_loyalty.title",
+    "name": "cards.unswerving_loyalty.title",
     "faction": [
       "fremen"
     ],
     "cost": 1,
     "access": [],
-    "blades": 0,
     "amount": 2,
+    "reveal" : {
+      "persuasion": 1
+    },
     "image": "/cards/unswerving_loyalty.jpg"
   },
   {
     "id": "reliable_informant",
-    "titleKey": "cards.reliable_informant.title",
+    "name": "cards.reliable_informant.title",
     "faction": [
       "guild"
     ],
@@ -36,13 +40,16 @@
     "access": [
       "guild"
     ],
-    "blades": 0,
     "amount": 1,
+    "reveal" : {
+      "persuasion": 1,
+      "solari": 1
+    },
     "image": "/cards/reliable_informant.jpg"
   },
   {
     "id": "bene_gesserit_operative",
-    "titleKey": "cards.bene_gesserit_operative.title",
+    "name": "cards.bene_gesserit_operative.title",
     "faction": [
       "bene"
     ],
@@ -50,13 +57,15 @@
     "access": [
       "bene"
     ],
-    "blades": 0,
     "amount": 1,
+    "reveal" : {
+      "persuasion": 1
+    },
     "image": "/cards/bene_gesserit_operative.jpg"
   },
   {
     "id": "rebel_supplier",
-    "titleKey": "cards.rebel_supplier.title",
+    "name": "cards.rebel_supplier.title",
     "faction": [
       "fremen"
     ],
@@ -64,25 +73,27 @@
     "access": [
       "blue"
     ],
-    "blades": 1,
     "amount": 1,
+    "reveal" : {
+      "spice": 1,
+      "blades": 1
+    },
     "image": "/cards/rebel_supplier.jpg"
   },
   {
     "id": "paracompass",
-    "titleKey": "cards.paracompass.title",
+    "name": "cards.paracompass.title",
     "faction": null,
     "cost": 4,
     "access": [
       "blue"
     ],
-    "blades": 0,
     "amount": 1,
     "image": "/cards/paracompass.jpg"
   },
   {
-    "id": "spacing_guild_favor",
-    "titleKey": "cards.spacing_guild_favor.title",
+    "id": "spacing_guilds_favor",
+    "name": "cards.spacing_guilds_favor.title",
     "faction": [
       "guild"
     ],
@@ -91,13 +102,15 @@
       "guild",
       "yellow"
     ],
-    "blades": 0,
     "amount": 1,
-    "image": "/cards/spacing_guild_favor.jpg"
+    "reveal" : {
+      "persuasion": 2
+    },
+    "image": "/cards/spacing_guilds_favor.jpg"
   },
   {
-    "id": "corinth_city",
-    "titleKey": "cards.corinth_city.title",
+    "id": "corrinth_city",
+    "name": "cards.corrinth_city.title",
     "faction": [
       "emperor"
     ],
@@ -106,13 +119,15 @@
       "emperor",
       "green"
     ],
-    "blades": 0,
     "amount": 1,
-    "image": "/cards/corinth_city.jpg"
+    "reveal" : {
+      "solari": 5
+    },
+    "image": "/cards/corrinth_city.jpg"
   },
   {
     "id": "hidden_missive",
-    "titleKey": "cards.hidden_missive.title",
+    "name": "cards.hidden_missive.title",
     "faction": [
       "bene"
     ],
@@ -120,8 +135,28 @@
     "access": [
       "green"
     ],
-    "blades": 1,
     "amount": 1,
+    "reveal" : {
+      "persuasion": 1,
+      "blades": 1
+    },
     "image": "/cards/hidden_missive.jpg"
+  },
+  {
+    "id": "prepare_the_way",
+    "name": "cards.prepare_the_way.title",
+    "faction": [
+      "bene"
+    ],
+    "cost": 2,
+    "access": [
+      "green",
+      "blue"
+    ],
+    "amount": 8,
+    "reveal" : {
+      "persuasion": 2
+    },
+    "image": "/cards/prepare_the_way.jpg"
   }
 ]
